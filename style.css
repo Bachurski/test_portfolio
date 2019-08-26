@@ -1,0 +1,122 @@
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: helvetica  sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav {
+  display: inline;
+}
+
+.name {
+  float: left;
+  padding-left: 10%;
+}
+
+.about {
+  float: right;
+  padding-right: 10%;
+}
+
+.about:hover {
+  text-decoration: underline;
+  transition: 5s;
+}
+
+.box {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 2em;
+}
+
+.pages {
+  text-align: center;
+  margin-top: 8%;
+}
+
+.work {
+  display: flex;
+  margin: 0 10%;
+}
+
+.w_1 {
+  background: url('images/water.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 30%;
+  height: 250px;
+  margin: 5% auto 0 0;
+}
+
+.w_2 {
+  background: url('images/wood.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 30%;
+  height: 250px;
+  margin: 5% auto 0 0;
+}
+
+.w_3 {
+  background: url('images/clock.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 30%;
+  height: 250px;
+  margin: 5% 0 0 0;
+}
+
+.w_1:hover, .w_2:hover, .w_3:hover {
+  filter: brightness(50%);
+}
+
+.info {
+  margin-top: 5%;
+  font-size: 2em;
+  text-align: center;
+  display: block;
+}
+
+.contact0 {
+  width: 76%;
+  text-align: center;
+  margin-left: 10%;
+  display: flex;
+}
+
+.contact {
+
+  width: 46%;
+  margin-right: 4%;
+}
+
+.ramka {
+  height: 370px;
+}
+
+.contact_1 {
+  width: 40%;
+  text-align: left;
+  font-size: 1.2em;
+  margin-left: 10%
+}
+
+input {
+  height: 20px;
+  margin: 15px 0;
+}
+
+.footer {
+  height: 80px;
+  clear: both;
+  margin-top: 100px;
+  text-align: center;
+}
